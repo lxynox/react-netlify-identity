@@ -220,7 +220,7 @@ function App() {
   // e.g. 'https://unruffled-roentgen-04c3b8.netlify.com'
   const domainToUse =
     new URL(window.location.origin).hostname === 'localhost'
-      ? 'http://react-netlify-identity.netlify.com'
+      ? 'https://lxynox.dev'
       : window.location.origin;
   const [url, setUrl] = React.useState(domainToUse);
   return (
